@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style2.css">
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+ <!-- font awesome cdn link  -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+   <!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo"><span>Real</span>Estate</a>
+
+    <nav class="navbar">
+        <a href="index2.html">Home</a>
+        <a href="index2.html">Services</a>
+        <a href="index2.html">Featured</a>
+        <a href="index2.html">Agents</a>
+        <a href="index2.html">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-bars" class="fas fa-bars"></div>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" target="_blank" class="fas fa-user"></a>
+    </div>
+
+</header>
+<div class="all">
+    <div class="box">
+
+        <form  id="box">
+            <div id="thank"></div>
+    
+            <div id="info">
+            <h2>You have Successfully Logged in!</h2>
+            </div>
+            
+            <div class="back-page">
+            <a href="index2.html"> Back to Page </a>
+            </div>
+        </form>
+        
+
+    </div>
+
+
+</div>
+
+
+
+
+<script>
+
+// menu js starts here
+
+let menu = document.querySelector('#menu-bars');
+    let navbar = document.querySelector('.navbar');
+    
+    menu.onclick = () =>{
+        navbar.classList.toggle('active');
+        menu.classList.toggle('fa-times');
+    }
+    
+    window.onscroll = () =>{
+        navbar.classList.remove('active');
+        menu.classList.remove('fa-times');
+    }
+
+    // menu js ends
+
+
+
+
+
+    const resulist= document.getElementById('thank')
+    new URLSearchParams(window.location.search).forEach((value,name)=>{
+        // resulist.append(""+name+":"+value+"")
+        // resulist.append(document.createElement('br'))
+
+        if(name==="fname"){
+            resulist.append("Welcome " + value +  " to Real Estate")
+            resulist.append(document.createElement(''))
+        }
+    })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flat 2BHK</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/page.css">
+</head>
+<body>
+    <!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo"><span>Real</span>Estate</a>
+
+    <nav class="navbar">
+        <a href="index2.html">Home</a>
+        <a href="index2.html">Services</a>
+        <a href="index2.html">Featured</a>
+        <a href="index2.html">Agents</a>
+        <a href="index2.html">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-bars" class="fas fa-bars"></div>
+         <a href="#"  class="fas fa-heart"></a>
+        <a href="#" target="blank"  class="fas fa-user"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+
+
+
+
+
+
+
+    <section class="featured" id="featured">
+        <h1 class="heading"> <span></span>  </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image-container">
+                    <div class="slider-box">
+                        <div id="slider">
+                          <img src="Images/img-2.jpg" >
+                <br>
+                          <img src="Images/kitchen-resize/kitchen-3.jpg">
+                          <br>
+                          <img src="Images/wash-resize/bath-3.jpg">
+                          <br>
+                          <img src="Images/bed resize/bed-3.jpg">
+                        </div>       
+                       
+                        <div class="indicators">
+                            <span id="btn1" class="active"></span>
+                            <span id="btn2"></span>
+                            <span id="btn3"></span>
+                            <span id="btn4"></span>
+                         </div>
+                    </div> 
+                </div>
+
+               
+    
+                <div class="icons">
+                    <a href="#" class="fas fa-film"><h3>3</h3></a>
+                    <a href="#" class="fas fa-camera"><h3>8</h3></a>
+                </div>
+    
+                <div class="content"> <div class="price">
+                    <h3>₹25,0000/mo</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+    
+                <div class="location">
+                    <h3>modern apartments</h3>
+                    <p>jogeshwari west, mumbai, india - 400104</p>
+                </div>
+    
+                <div class="details">
+                    <h3> <i class="fas fa-expand"></i> 3500 sqft </h3>
+                    <h3> <i class="fas fa-bed"></i> 2 beds </h3>
+                    <h3> <i class="fas fa-bath"></i> 2 baths </h3>
+                </div>
+    
+                <div class="buttons">
+                    <a href="#" class="btn">Buy now</a>
+                    <a href="#" class="btn">view details</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+   
+       
+      
+   
+    
+
+<script>
+    // slide js start here
+    var slide = document.getElementById("slider");
+    var btn1 = document.getElementById("btn1");
+    var btn2 = document.getElementById("btn2");
+    var btn3 = document.getElementById("btn3");
+    var btn4 = document.getElementById("btn4");
+    
+    btn1.onclick = function(){
+        slide.style.transform = "translateX(0px)";
+        btn1.classList.add("active");
+        btn2.classList.remove("active");
+        btn3.classList.remove("active");
+        btn4.classList.remove("active");
+    }
+    
+    btn2.onclick = function(){
+        slide.style.transform = "translateX(-100%)";
+        btn1.classList.remove("active");
+        btn2.classList.add("active");
+        btn3.classList.remove("active");
+        btn4.classList.remove("active");
+    }
+    
+    btn3.onclick = function(){
+        slide.style.transform = "translateX(-200%)";
+        btn1.classList.remove("active");
+        btn2.classList.remove("active");
+        btn3.classList.add("active");
+        btn4.classList.remove("active");
+    }
+    
+    btn4.onclick = function(){
+        slide.style.transform = "translateX(-300%)";
+        btn1.classList.remove("active");
+        btn2.classList.remove("active");
+        btn3.classList.remove("active");
+        btn4.classList.add("active");
+    }
+        // slide js ends here
+
+
+        let menu = document.querySelector('#menu-bars');
+let navbar = document.querySelector('.navbar');
+
+menu.onclick = () =>{
+    navbar.classList.toggle('active');
+    menu.classList.toggle('fa-times');
+}
+
+window.onscroll = () =>{
+    navbar.classList.remove('active');
+    menu.classList.remove('fa-times');
+}
+
+        </script>
+
+
+</body>
+</html>

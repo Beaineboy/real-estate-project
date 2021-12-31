@@ -1,0 +1,1063 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --red:#44dcc0;
+    --light-blue:aqua;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    
+}
+
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body{
+    background:aqua;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.8rem 3.5rem;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    color:var(--blue);
+    background:var(--light-blue);
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover{
+    background:var(--blue);
+    color:#44dcd4;
+}
+    
+.heading{
+    text-align: center;
+    color:#333;
+    font-size: 4rem;
+    padding-bottom: 3rem;
+}
+
+.heading span{
+    color:var(--red);
+    background:var(--light-red);
+    border-radius: .5rem;
+    padding:.2rem 1.5rem;
+}
+
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background:#fff;
+    padding:1.5rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color:#333;
+}
+
+header .logo span{
+    color:var(--red);
+}
+
+header .navbar a{
+    color:#333;
+    font-size: 2rem;
+    padding:0 1.5rem;
+}
+
+header .navbar a:hover{
+    color:var(--red);
+}
+
+header .icons #menu-bars,
+header .icons a{
+    height:4.5rem;
+    line-height: 4.5rem;
+    width:5rem;
+    font-size: 2rem;
+    margin-right: .5rem;
+    border-radius: .5rem;
+    color:var(--red);
+    background:var(--light-red);
+    text-align: center;
+}
+
+header .icons #menu-bars:hover,
+header .icons a:hover{
+    background-color:var(--red);
+    color:#fff;
+}
+
+header .icons #menu-bars{
+    display: none;
+}
+    
+    div.main{
+         width: 400px;
+        margin: 100px auto 0px auto;
+        padding-top: 100px;
+        
+        }
+    
+    h2{
+        text-align: center;
+        padding: 20px;
+        font-family: sans-serif;
+    }
+    
+    div.register{
+        background-color: rgba(0,0,0,0.5);
+        width: 100%;
+        font-size: 10px;
+        border-radius: 10px;
+        border: 1px soid rgba(255,255,255,0.3);
+        box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+        color: #fff;
+
+    }
+    
+    form#register{
+        margin: 40px;
+    }
+    
+    label{
+        font-family: sans-serif;
+        font-size: 18px;
+        font-style: italic;
+    }
+    
+    input#name{
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+        background-color: #fff;
+        box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+        text-transform: capitalize;
+    }
+
+    input#email{
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline: 0;
+        padding: 7px;
+        background-color: #fff;
+        box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+    }
+    
+    input#submit{
+        width: 200px;
+        padding: 7px 7px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-weight: 600;
+        border: none;
+        border-radius: 3px;
+        background-color: rgba(250,100,0,0.8);
+        color: #fff;
+        cursor: pointer;
+        border: 1px solid rgba(255,255,255,0.3);
+        box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+        margin-bottom: 20px;
+    }
+    
+    div.all{
+        width: 550px;
+        
+       margin: 100px auto 0px auto;
+       padding-top: 300px;
+       
+       }
+   
+
+    div.box{
+        background-color: rgba(0,0,0,0.5);
+       width: 100%;
+        font-size: 10px;
+        border-radius: 10px;
+        border: 1px soid rgba(255,255,255,0.3);
+        box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+        color: #fff;
+        text-align: center;
+
+    }
+
+    
+
+#thank{
+    
+    padding-top: 20px;
+    text-align: center;
+    font-size: 300%;
+    text-transform: capitalize;
+    width: 100%;
+    font-family: bold;
+    
+}
+#info{
+    
+    /* padding-top: 10px; */
+    text-align: center;
+    font-size: 200%;
+    
+    width: 100%;
+}
+.back-page{
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+   cursor: pointer;
+    width: 100%;
+    
+}
+
+.back-page a:hover{
+    align-items: center;
+    color:white;
+    padding: 7px 7px;
+    border: none;
+        border-radius: 3px;
+        background-color: black;
+}
+
+
+    label,span,h2{
+        text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    }
+
+    
+    .social-links img{
+        height: 25px;
+        margin: 30px;
+        cursor: pointer;
+       }
+       .social-links{
+           text-align: center;
+     }
+
+     @media only screen and (max-width: 800px){
+        html{
+            font-size:55%;
+        }
+    
+        header{
+            padding:1.5rem 1rem;
+        }
+    
+        section{
+            padding:1.5rem;
+        }
+    
+        
+        
+    div.main{
+        flex-direction: column-reverse;
+        
+        padding-left: 25px;
+        padding-right: 25px;
+        
+        
+    }
+      
+    div.register{
+        width: 100%;
+        flex-basis: 100%;
+        margin-bottom: 50px auto;
+        
+    }
+    form#register{
+        width: 77%;
+    }
+    input#name{
+        width: 77%;
+    }
+
+    input#email{
+     width: 77%;
+    }
+
+    input#submit{
+        width: 60%;
+    }
+
+    div.all{
+        width: 550px;
+        
+       margin: 100px auto 0px auto;
+       padding-top: 300px;
+       
+       }
+   
+
+    div.box{
+        background-color: rgba(0,0,0,0.5);
+       width: 100%;
+        font-size: 10px;
+        border-radius: 10px;
+        border: 1px soid rgba(255,255,255,0.3);
+        box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+        color: #fff;
+        text-align: center;
+
+    }
+
+    
+
+#thank{
+    
+    padding-top: 20px;
+    text-align: center;
+    font-size: 300%;
+    text-transform: capitalize;
+    width: 100%;
+    font-family: bold;
+    
+}
+#info{
+    
+    /* padding-top: 10px; */
+    text-align: center;
+    font-size: 200%;
+    
+    width: 100%;
+}
+.back-page{
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+   cursor: pointer;
+    width: 100%;
+    
+}
+
+.back-page a:hover{
+    align-items: center;
+    color:white;
+    padding: 7px 7px;
+    border: none;
+        border-radius: 3px;
+        background-color: black;
+}
+
+    }
+    
+    @media only screen and (max-width: 700px){
+        html{
+            font-size:55%;
+        }
+    
+        header{
+            padding:1.5rem 1rem;
+        }
+    
+        section{
+            padding:1.5rem;
+        }
+        
+        header .icons #menu-bars{
+            display: inline-block;
+        }
+    
+        header .navbar{
+            position: absolute;
+            left:0; right:0; top:100%;
+            background:#f7f7f7;
+            border-top: .1rem solid #333;
+            border-bottom: .1rem solid #333;
+            transition: .2s linear;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        }
+    
+           header .navbar.active{
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        }
+    
+        header .navbar a{
+            display: block;
+            padding:1.5rem;
+            margin:1.5rem;
+            background:#fff;
+            border:.1rem solid #333;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+            border-radius: .5rem;
+        }
+       
+    div.main{
+        flex-direction: column-reverse;
+        padding-left: 25px;
+        padding-right: 25px;
+      
+        
+    }
+    div.register{
+        width: 100%;
+        flex-basis: 100%;
+        margin-bottom: 50px auto;
+        
+    }
+    form#register{
+        width: 77%;
+    }
+    input#name{
+        width: 77%;
+    }
+    }
+    
+    @media only screen and (max-width: 570px){
+        html{
+            font-size:55%;
+        }
+    
+        header{
+            padding:1.5rem 1rem;
+        }
+    
+        section{
+            padding:1.5rem;
+        }
+        
+        header .icons #menu-bars{
+            display: inline-block;
+        }
+    
+        header .navbar{
+            position: absolute;
+            left:0; right:0; top:100%;
+            background:#f7f7f7;
+            border-top: .1rem solid #333;
+            border-bottom: .1rem solid #333;
+            transition: .2s linear;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        }
+       
+    div.register{
+        width: 98%;
+        flex-basis: 100%;
+        margin-bottom: 50px auto;   
+    }
+    form#register{
+        width: 77%;
+    }
+    input#name{
+        width: 77%;
+    }
+    input#submit{
+        width: 60%;
+    }
+
+    div.all{
+        width: 500px;
+        
+       margin: 100px auto 0px auto;
+       padding-top: 200px;
+       
+       }
+   
+
+    div.box{
+        background-color: rgba(0,0,0,0.5);
+       width: 100%;
+        font-size: 10px;
+        border-radius: 10px;
+        border: 1px soid rgba(255,255,255,0.3);
+        box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+        color: #fff;
+        text-align: center;
+
+    }
+
+    
+
+#thank{
+    
+    padding-top: 20px;
+    text-align: center;
+    font-size: 300%;
+    text-transform: capitalize;
+    width: 100%;
+    font-family: bold;
+    
+}
+#info{
+    
+    /* padding-top: 10px; */
+    text-align: center;
+    font-size: 200%;
+    
+    width: 100%;
+}
+.back-page{
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+   cursor: pointer;
+    width: 100%;
+    
+}
+
+.back-page a:hover{
+    align-items: center;
+    color:white;
+    padding: 7px 7px;
+    border: none;
+        border-radius: 3px;
+        background-color: black;
+}
+
+}
+
+
+
+    @media only screen and (max-width: 500px){
+        html{
+            font-size:55%;
+        }
+    
+        header{
+            padding:1.5rem 1rem;
+        }
+    
+        section{
+            padding:1.5rem;
+        }
+        
+        header .icons #menu-bars{
+            display: inline-block;
+        }
+    
+        header .navbar{
+            position: absolute;
+            left:0; right:0; top:100%;
+            background:#f7f7f7;
+            border-top: .1rem solid #333;
+            border-bottom: .1rem solid #333;
+            transition: .2s linear;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        }
+       
+    div.register{
+        width: 98%;
+        flex-basis: 100%;
+        margin-bottom: 50px auto;   
+    }
+    form#register{
+        width: 77%;
+    }
+    input#name{
+        width: 77%;
+    }
+    input#submit{
+        width: 60%;
+    }
+
+    div.all{
+        width: 450px;
+        
+       margin: 100px auto 0px auto;
+       padding-top: 100px;
+       
+       }
+   
+
+    div.box{
+        background-color: rgba(0,0,0,0.5);
+       width: 100%;
+        font-size: 10px;
+        border-radius: 10px;
+        border: 1px soid rgba(255,255,255,0.3);
+        box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+        color: #fff;
+        text-align: center;
+
+    }
+
+    
+
+#thank{
+    
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    font-size: 300%;
+    text-transform: capitalize;
+    width: 100%;
+    font-family: bold;
+    
+}
+#info{
+    
+    padding-top: 10px;
+    text-align: center;
+    font-size: 200%;
+    width: 100%;
+}
+.back-page{
+    
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+   cursor: pointer;
+    width: 100%;
+    
+}
+
+.back-page a:hover{
+    align-items: center;
+    color:white;
+    padding: 7px 7px;
+    border: none;
+        border-radius: 3px;
+        background-color: black;
+}
+
+}
+
+@media only screen and (max-width: 414px){
+    html{
+        font-size:55%;
+    }
+
+    header{
+        padding:1.5rem 1rem;
+    }
+
+    section{
+        padding:1.5rem;
+    }
+    
+    header .icons #menu-bars{
+        display: inline-block;
+    }
+
+    header .navbar{
+        position: absolute;
+        left:0; right:0; top:100%;
+        background:#f7f7f7;
+        border-top: .1rem solid #333;
+        border-bottom: .1rem solid #333;
+        transition: .2s linear;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+   
+div.register{
+    width: 98%;
+    flex-basis: 100%;
+    margin-bottom: 50px auto;   
+}
+form#register{
+    width: 77%;
+}
+input#name{
+    width: 77%;
+}
+input#submit{
+    width: 60%;
+}
+
+div.all{
+    width: 350px;
+    
+   margin: 100px auto 0px auto;
+   padding-top: 100px;
+   
+   }
+
+
+div.box{
+    background-color: rgba(0,0,0,0.5);
+   width: 100%;
+    font-size: 10px;
+    border-radius: 10px;
+    border: 1px soid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+    text-align: center;
+
+}
+
+
+
+#thank{
+
+padding-top: 20px;
+text-align: center;
+font-size: 300%;
+text-transform: capitalize;
+width: 100%;
+font-family: bold;
+
+}
+#info{
+
+/* padding-top: 10px; */
+text-align: center;
+font-size: 200%;
+
+width: 100%;
+}
+.back-page{
+/* padding-top: 20px; */
+padding-bottom: 20px;
+text-align: center;
+font-size: 200%;
+cursor: pointer;
+width: 100%;
+
+}
+
+.back-page a:hover{
+align-items: center;
+color:white;
+padding: 7px 7px;
+border: none;
+    border-radius: 3px;
+    background-color: black;
+}
+
+}
+
+
+@media only screen and (max-width: 412px){
+    html{
+        font-size:55%;
+    }
+
+    header{
+        padding:1.5rem 1rem;
+    }
+
+    section{
+        padding:1.5rem;
+    }
+    
+    header .icons #menu-bars{
+        display: inline-block;
+    }
+
+    header .navbar{
+        position: absolute;
+        left:0; right:0; top:100%;
+        background:#f7f7f7;
+        border-top: .1rem solid #333;
+        border-bottom: .1rem solid #333;
+        transition: .2s linear;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+   
+div.register{
+    width: 98%;
+    flex-basis: 100%;
+    margin-bottom: 50px auto;   
+}
+form#register{
+    width: 77%;
+}
+input#name{
+    width: 77%;
+}
+input#submit{
+    width: 60%;
+}
+
+div.all{
+    width: 390px;
+    
+   margin: 100px auto 0px auto;
+   padding-top: 100px;
+   
+   }
+
+
+div.box{
+    background-color: rgba(0,0,0,0.5);
+   width: 100%;
+    font-size: 10px;
+    border-radius: 10px;
+    border: 1px soid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+    text-align: center;
+
+}
+
+
+
+#thank{
+
+padding-top: 20px;
+text-align: center;
+font-size: 300%;
+text-transform: capitalize;
+width: 100%;
+font-family: bold;
+
+}
+#info{
+
+/* padding-top: 10px; */
+text-align: center;
+font-size: 200%;
+width: 100%;
+}
+.back-page{
+/* padding-top: 20px; */
+padding-bottom: 20px;
+text-align: center;
+font-size: 200%;
+cursor: pointer;
+width: 100%;
+
+}
+
+.back-page a:hover{
+align-items: center;
+color:white;
+padding: 7px 7px;
+border: none;
+    border-radius: 3px;
+    background-color: black;
+}
+
+}
+
+
+@media only screen and (max-width: 400px){
+    html{
+        font-size:55%;
+    }
+
+    header{
+        padding:1.5rem 1rem;
+    }
+
+    section{
+        padding:1.5rem;
+    }
+    
+    header .icons #menu-bars{
+        display: inline-block;
+    }
+
+    header .navbar{
+        position: absolute;
+        left:0; right:0; top:100%;
+        background:#f7f7f7;
+        border-top: .1rem solid #333;
+        border-bottom: .1rem solid #333;
+        transition: .2s linear;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+   
+div.register{
+    width: 98%;
+    flex-basis: 100%;
+    margin-bottom: 50px auto;   
+}
+form#register{
+    width: 77%;
+}
+input#name{
+    width: 77%;
+}
+input#submit{
+    width: 60%;
+}
+
+div.all{
+    width: 300px;
+    
+   margin: 100px auto 0px auto;
+   padding-top: 100px;
+   
+   }
+
+
+div.box{
+    background-color: rgba(0,0,0,0.5);
+   width: 100%;
+    font-size: 10px;
+    border-radius: 10px;
+    border: 1px soid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+    text-align: center;
+
+}
+
+
+
+#thank{
+
+padding-top: 20px;
+text-align: center;
+font-size: 300%;
+text-transform: capitalize;
+width: 100%;
+font-family: bold;
+
+}
+#info{
+
+/* padding-top: 10px; */
+text-align: center;
+font-size: 200%;
+
+width: 100%;
+}
+.back-page{
+/* padding-top: 20px; */
+padding-bottom: 20px;
+text-align: center;
+font-size: 200%;
+cursor: pointer;
+width: 100%;
+
+}
+
+.back-page a:hover{
+align-items: center;
+color:white;
+padding: 7px 7px;
+border: none;
+    border-radius: 3px;
+    background-color: black;
+}
+
+}
+
+@media only screen and (max-width: 290px){
+    html{
+        font-size:55%;
+    }
+
+    header{
+        padding:1.5rem 1rem;
+    }
+
+    section{
+        padding:1.5rem;
+    }
+    
+    header .icons #menu-bars{
+        display: inline-block;
+    }
+
+    header .navbar{
+        position: absolute;
+        left:0; right:0; top:100%;
+        background:#f7f7f7;
+        border-top: .1rem solid #333;
+        border-bottom: .1rem solid #333;
+        transition: .2s linear;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+   
+div.register{
+    width: 98%;
+    flex-basis: 100%;
+    margin-bottom: 50px auto;   
+}
+form#register{
+    width: 77%;
+}
+input#name{
+    width: 77%;
+}
+input#submit{
+    width: 60%;
+}
+
+div.all{
+    width: 250px;
+    
+   margin: 100px auto 0px auto;
+   padding-top: 100px;
+   
+   }
+
+
+div.box{
+    background-color: rgba(0,0,0,0.5);
+   width: 100%;
+    font-size: 10px;
+    border-radius: 10px;
+    border: 1px soid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+    text-align: center;
+
+}
+
+
+
+#thank{
+
+padding-top: 20px;
+text-align: center;
+font-size: 300%;
+text-transform: capitalize;
+width: 100%;
+font-family: bold;
+
+}
+#info{
+
+/* padding-top: 10px; */
+text-align: center;
+font-size: 200%;
+
+width: 100%;
+}
+.back-page{
+/* padding-top: 20px; */
+padding-bottom: 20px;
+text-align: center;
+font-size: 200%;
+cursor: pointer;
+width: 100%;
+
+}
+
+.back-page a:hover{
+align-items: center;
+color:white;
+padding: 7px 7px;
+border: none;
+    border-radius: 3px;
+    background-color: black;
+}
+
+}
