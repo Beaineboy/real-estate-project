@@ -417,6 +417,7 @@ header .icons #menu-bars{
         flex-direction: column-reverse;
         padding-left: 25px;
         padding-right: 25px;
+        padding-top: 100px
       
         
     }
@@ -881,11 +882,7 @@ border: none;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
     
-    div.main{
-         
-        padding-top: 100px;
-        
-        }
+   
    
 div.register{
     width: 98%;
@@ -991,11 +988,7 @@ border: none;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
     
-      div.main{
-         
-        padding-top: 100px;
-        
-        }
+      
    
 div.register{
     width: 98%;
