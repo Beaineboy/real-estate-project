@@ -880,6 +880,12 @@ border: none;
         transition: .2s linear;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
+    
+    div.main{
+         
+        padding-top: 100px;
+        
+        }
    
 div.register{
     width: 98%;
@@ -984,6 +990,12 @@ border: none;
         transition: .2s linear;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
+    
+      div.main{
+         
+        padding-top: 100px;
+        
+        }
    
 div.register{
     width: 98%;
