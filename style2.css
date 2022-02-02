@@ -83,7 +83,9 @@ header .logo{
 }
 
 header .logo span{
-    color:var(--red);
+    color: #44dcc0;
+    text-shadow: none;
+
 }
 
 header .navbar a{
