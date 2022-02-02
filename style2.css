@@ -265,6 +265,11 @@ header .icons #menu-bars{
            text-align: center;
      }
 
+.login{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
      @media only screen and (max-width: 800px){
         html{
             font-size:55%;
